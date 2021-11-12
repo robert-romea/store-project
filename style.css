@@ -1,3 +1,4 @@
+/* ---------------- TOPOGRAPHY START ---------------- */
 .h11{
     font-family: Libre Franklin;
     font-style: normal;
@@ -79,3 +80,57 @@
     text-align: center;
     color: #222549;
 }
+/* ---------------- TOPOGRAPHY END ---------------- */
+
+
+/* ---------------- COLORS START ---------------- */
+:root{
+    /* primary palette */
+
+    --primary500: #353A8D;
+    --primary2: #40DD9C;
+    --primary3: #36385A;
+
+     /* sedondary palette */
+
+     --p100: #E2E3E9;
+     --p0: #9C9DB2;
+     --p1: #60627D;
+     --p2: #4B4D6C;
+     --p3: #36385A;
+     --p4: #222549;
+
+     --teal100: #D8EFF0;
+     --teal900: #45888E;
+     --primary900: #10246A;
+
+     /* semantic palette */
+     --succes-100: #EBF4E7;
+     --succes-500: #6AA64F;
+     --succes-900: #3C7425;
+
+     --warning-100: #FBF4E0;
+     --warning-500: #BD8E00;
+     --warning-900: #8F6B00;
+
+     --error-100: #F9E2E2;
+     --error-500: #DE6664;
+     --errow-900: #B33A38;
+}
+/* ---------------- COLORS END ---------------- */
+
+
+
+/* ---------------- ELEVATION START ---------------- */
+.shadow-f1{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(8, 68, 73, 0.24), 0px 4px 16px rgba(8, 68, 73, 0.35);
+    border-radius: 8px;
+}
+ .shadow-f2{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(8, 68, 73, 0.35);
+    border-radius: 8px;
+ }
+
+/* ---------------- ELEVATION END ---------------- */
