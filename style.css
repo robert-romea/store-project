@@ -1,0 +1,81 @@
+.h11{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 69px;
+    color: #222549;
+}
+
+.h22{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 54px;
+    color: #222549;
+}
+
+.h33{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    color: #222549; 
+}
+.h44{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+    color: #222549;
+}
+
+.body1{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222549;
+}
+
+.body2{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #222549;
+}
+
+.button-big{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222549;
+}
+
+.button-small{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #222549;
+}
+
+.caption{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #222549;
+}
