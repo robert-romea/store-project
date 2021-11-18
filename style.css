@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 46px;
-    line-height: 69px;
+    line-height: 4.31rem;
     color: #222549;
 }
 
@@ -13,7 +13,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 37px;
-    line-height: 54px;
+    line-height: 3.37rem;
     color: #222549;
 }
 
@@ -22,7 +22,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
-    line-height: 44px;
+    line-height: 2.75rem;
     color: #222549; 
 }
 .h44{
@@ -30,7 +30,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 21px;
-    line-height: 32px;
+    line-height: 2rem;
     color: #222549;
 }
 
@@ -39,7 +39,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.5rem;
     color: #222549;
 }
 
@@ -48,7 +48,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 1.5rem;
     color: #222549;
 }
 
@@ -57,7 +57,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5rem;
     color: #222549;
 }
 
@@ -66,7 +66,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1rem;
     letter-spacing: 1px;
     color: #222549;
 }
@@ -76,7 +76,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1rem;
     text-align: center;
     color: #222549;
 }
@@ -87,22 +87,28 @@
 :root{
     /* primary palette */
 
-    --primary500: #353A8D;
-    --primary2: #40DD9C;
-    --primary3: #36385A;
+    --primary-500: #353A8D;
+    --primary-2: #40DD9C;
+    --primary-3: #36385A;
 
      /* sedondary palette */
 
      --p100: #E2E3E9;
      --p0: #9C9DB2;
+     --p01: rgba(156,157,178,0.3); /* same as '--p0' but with 0.3 alpha */  
      --p1: #60627D;
      --p2: #4B4D6C;
      --p3: #36385A;
      --p4: #222549;
 
-     --teal100: #D8EFF0;
-     --teal900: #45888E;
-     --primary900: #10246A;
+     --emp-sec-color:  #353A8C;
+     
+
+
+
+     --teal-100: #D8EFF0;
+     --teal-900: #45888E;
+     --primary-900: #10246A;
 
      /* semantic palette */
      --succes-100: #EBF4E7;
@@ -115,7 +121,7 @@
 
      --error-100: #F9E2E2;
      --error-500: #DE6664;
-     --errow-900: #B33A38;
+     --error-900: #B33A38;
 }
 /* ---------------- COLORS END ---------------- */
 
@@ -134,3 +140,142 @@
  }
 
 /* ---------------- ELEVATION END ---------------- */
+
+
+
+/* ---------------- BUTTONS START ---------------- */
+
+.large-btn{
+    
+    border-radius: 4px; 
+    padding: 12px 24px;
+    border: none;
+}
+
+.normal-button{
+    border-radius: 4px;
+    padding: 12px 24px;
+    border: none;
+}
+
+.small-button{
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* ------ EMPHASIS ------- */
+
+.accent-emp{
+    background-color: var(--primary-2);
+    color: var(--primary-500);
+}
+.primary-emp{
+    background: var(--primary-500); 
+    color: white;    
+}
+.secondary-emp{
+    background-color: white;
+    color: var(--primary-500);
+    border: 1px solid #10246A;
+    box-sizing: border-box;
+}
+
+.tertiary-emp{
+    background-color: white;
+    color: var(--primary-900);
+}
+
+/* ------ EMPHASIS END ------- */
+
+.big-elevation-btn{
+    box-shadow: 0px 2px 4px rgba(8, 68, 73, 0.24), 0px 4px 16px rgba(8, 68, 73, 0.35);
+}
+
+
+/* ------ ELEVATION START ------- */
+
+
+
+/* ------ ELEVATION END ------- */
+
+
+.ghost-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px; 
+
+    background: transparent;
+    border-radius: 4px;
+    color: var(--primary-500);
+    border: transparent;
+    margin: 0px 16px;
+}
+
+.button2{
+    background: linear-gradient(180deg, #353A8C 0%, #2A5AA2 100%);
+    border-radius: 51px;
+    flex-grow: 0;
+    margin: 0px 24px;
+    width: 70px;
+    height: 48px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------- BUTTONS END ---------------- */
+
+
+.container-vw{
+    width: 1040px;
+    height: 72px;  
+}
+.container-vw2{
+    width: 1040px;
+    height: 56px;  
+}
+
+.container-vw3{
+    width: 1040px;
+    height: 344px;  
+}
+
+.container-vw4{
+    width: 1040px;
+    height: 244px;
+}
+
+
+.bottom-border{
+    border-bottom: 1px solid var(--p01) ;
+}
+
+.image-border{
+    border: 1px solid var(--p01) ;
+    border-radius: 5px;
+}
+.bottom-margin{
+    margin-bottom: 100px;    
+}
+
+.footer-bg{
+    background-color: #F8F8F9;
+    
+}
+
+footer{
+   
+    bottom: 0;
+    top: 100%
+}
+
+
+
