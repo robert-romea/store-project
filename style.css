@@ -64,7 +64,7 @@
 .button-small{
     font-family: Libre Franklin;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700  ; 
     font-size: 14px;
     line-height: 1rem;
     letter-spacing: 1px;
@@ -161,7 +161,7 @@
 .small-button{
     padding: 8px 24px;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 /* ------ EMPHASIS ------- */
@@ -184,16 +184,17 @@
 .tertiary-emp{
     background-color: white;
     color: var(--primary-900);
+    border: none;
 }
 
 /* ------ EMPHASIS END ------- */
 
-.
+
 
 
 /* ------ ELEVATION BUTTONS START ------- */
 
-big-elevation-btn{
+.big-elevation-btn{
     box-shadow: 0px 2px 4px rgba(8, 68, 73, 0.24), 0px 4px 16px rgba(8, 68, 73, 0.35);
 }
 
@@ -217,10 +218,10 @@ big-elevation-btn{
 .button2{
     background: linear-gradient(180deg, #353A8C 0%, #2A5AA2 100%);
     border-radius: 51px;
-    flex-grow: 0;
-    margin: 0px 24px;
+    flex-grow: 0; 
     width: 70px;
     height: 48px;
+    border: none
 }
 
 
@@ -235,23 +236,30 @@ big-elevation-btn{
 
 
 .container-vw{
-    width: 1040px;
+     width: 65rem; /* (1040px) */
     height: 72px;  
 }
 .container-vw2{
-    width: 1040px;
+    width: 65rem;
     height: 56px;  
 }
 
 .container-vw3{
-    width: 1040px;
+    width: 65rem;
     height: 344px;  
 }
 
 .container-vw4{
-    width: 1040px;
+    width: 65rem;
     height: 244px;
 }
+
+.container-vw5{
+     width: 71.25rem;  /*1140px */
+    height: 244px;
+}
+
+
 
 
 .bottom-border{
@@ -264,6 +272,10 @@ big-elevation-btn{
 }
 .bottom-margin{
     margin-bottom: 100px;    
+}
+
+.bottom-margin2{
+    margin-bottom: 200px;    
 }
 
 .footer-bg{
