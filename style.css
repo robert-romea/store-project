@@ -49,7 +49,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 1.5rem;
-    color: #222549;
+    
 }
 
 .button-big{
@@ -80,6 +80,19 @@
     text-align: center;
     color: #222549;
 }
+
+.photos-font{
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--primary-500);
+}
+
+
+
 /* ---------------- TOPOGRAPHY END ---------------- */
 
 
@@ -233,32 +246,41 @@
 
 
 /* ---------------- BUTTONS END ---------------- */
-
+body{
+    height: 100%;
+}
 
 .container-vw{
      width: 65rem; /* (1040px) */
-    height: 72px;  
+    height:  4.5rem;   /*72px; */
 }
 .container-vw2{
     width: 65rem;
-    height: 56px;  
+    height: 3.5rem;    /*56px; */
 }
 
 .container-vw3{
     width: 65rem;
-    height: 344px;  
+     height: 21.5rem;  /*344px;   */
 }
 
 .container-vw4{
     width: 65rem;
-    height: 244px;
+    height: 15.25rem  /*244px;   */
 }
 
 .container-vw5{
      width: 71.25rem;  /*1140px */
-    height: 244px;
+    height: 100%;   /*244px;  */
 }
 
+
+.product-image {
+    background: url(https://place-puppy.com/340x220) no-repeat center/cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px ;
+}
 
 
 
@@ -283,11 +305,38 @@
     
 }
 
-footer{
-   
-    bottom: 0;
-    top: 100%
+
+
+@media only screen and (max-width: 700px) {
+    div.container-vw4.d-flex .col-12.col-md-7{
+        margin-top: 38rem;   
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+      footer {
+         margin-top: 65rem;
+      }
+  }
+
+  @media only screen and (max-width: 700px) {
+    div.col-12.col-md-5 img{
+    background: url(images/rectangle.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 50%;
+    
+    }
 }
+
+
+
+
+
+
+  
+
 
 
 
