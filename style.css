@@ -300,12 +300,16 @@ body{
     margin-bottom: 200px;    
 }
 
+.bottom-margin3{
+    margin-bottom: 3rem;    
+}
+
 .footer-bg{
     background-color: #F8F8F9;
     
 }
 
-
+        /* --- PAGE 1 MEDIA QUERIES --- */
 
 @media only screen and (max-width: 700px) {
     div.container-vw4.d-flex .col-12.col-md-7{
@@ -331,12 +335,59 @@ body{
 }
 
 
+/* ---> IMAGE BUTTONS <--- */
+
+div.ps-3.pt-3.pe-3{
+    position: relative;
+    z-index: 0;
+}
+
+button.accent-emp.small-button{
+    border-radius: 50px;
+    position: absolute;
+    left:70%;
+    bottom: 0%;
+    z-index: 999;
+    display: none;
+
+    
 
 
+}
+
+
+/* ---> HOVERS <=> STATES <--- */
+
+div.col-10.col-md.rounded-3:hover {
+    /* box-shadow: 0px 2px 4px rgba(8, 68, 73, 0.24), 0px 4px 16px rgba(8, 68, 73, 0.35); */
+    box-shadow: 0px 8px 24px rgba(8, 68, 73, 0.35);
+
+   
+}
 
 
   
+div.col-10.col-md.rounded-3:hover button.accent-emp.small-button  {
+    display: block;
+
+    animation-name: buttonAnimation;
+    animation-delay: 0s;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+}
 
 
 
 
+/* ---> BUTTON ANIMATION <--- */
+
+@keyframes buttonAnimation{
+    0%{
+        transform: translateX(-25%)
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
