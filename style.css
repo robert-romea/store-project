@@ -274,6 +274,12 @@ body{
     height: 100%;   /*244px;  */
 }
 
+.container-vw6{
+    width: 68.5rem;  /*1096px */
+   height: 100%;   /*244px;  */
+}
+
+
 
 .product-image {
     background: url(https://place-puppy.com/340x220) no-repeat center/cover;
